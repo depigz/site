@@ -1,0 +1,13 @@
+.spinner {
+    margin: 15px 0;
+}
+.spinner__item {
+    transform-origin: center;
+    animation: spinner-animated .75s infinite linear;
+}
+
+@keyframes spinner-animated {
+    100% {
+        transform:rotate(360deg);
+    }
+}
